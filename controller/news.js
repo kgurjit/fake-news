@@ -1,6 +1,6 @@
-let cheerio = require('cheerio');
-let request = require('request');
-let NewsItem = require('../model/newsItem');
+var cheerio = require('cheerio');
+var request = require('request');
+var NewsItem = require('../model/newsItem');
 
 
 var loadNews = function(done, err) {
